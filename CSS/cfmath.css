@@ -1,0 +1,152 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.2;
+	text-align: left;
+}
+
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p , ul {
+	margin-top: 0;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #45693A;	
+}
+
+a img { 
+	border: none;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+
+.container {
+	width: 880px;
+	background: #FFF; 
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+
+.header {
+	background-color: #ADB96E;
+	background-image: url(../images/cfrasser_top.png);
+	background-repeat: no-repeat;
+	height: 93px;
+	margin-bottom: 1px;
+}
+
+
+
+.content {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #45693a;
+	border-left-color: #45693a;
+	border-bottom-width: 6px;
+	border-bottom-style: solid;
+	border-bottom-color: #45693A;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+}
+
+
+.footer {
+	padding: 10px 0;
+	font-size: 0.8em;
+}
+
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+
+.hovermenu ul{
+	padding-left: 0;
+	margin-left: 0;
+	height: 26px;
+	background-color: #45693A;
+	margin-right: 0px;
+	padding-right: 0px;
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.hovermenu ul li{
+	list-style: none;
+	display: inline;
+}
+
+.hovermenu ul li a{
+	text-decoration: none;
+	float: right;
+	color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	padding-top: 4px;
+	padding-right: 1.5em;
+	padding-bottom: 4px;
+	padding-left: 1.5em;
+}
+
+.hovermenu ul li a:hover{
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #cccc66;
+}
+
+.content1 {
+	float: left;
+	width: 650px;
+}
+
+.sidebar {
+	float: right;
+	width: 210px;
+	padding-top: 60px;
+}
